@@ -1,0 +1,4 @@
+num = float(input("Enter а number: "))
+num1 = float(input("Enter аnother number: "))
+num2 = num - num1
+print("The difference between " + str(num) + " and "+ str(num1) + " is an integer?" +str(num2.is_integer()))
